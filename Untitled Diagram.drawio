@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T06:21:36.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="qsNW01eQUB-pX0XXJ_tM" version="14.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-23T15:59:08.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="dZn9QRoPRo0qXhMxQyNb" version="14.7.8" type="github">
   <diagram id="uc5Inh4p8IArnTGNV41Y" name="Page-1">
     <mxGraphModel dx="1483" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -294,7 +294,7 @@
         <mxCell id="o9eBtAJIPWO3o0ZU7rO9-93" value="CPU" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="440" y="560" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tdwPlaa_u7U4kU1DZMBL-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="tdwPlaa_u7U4kU1DZMBL-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="665.32" y="1094" width="120" height="640" as="geometry" />
         </mxCell>
         <mxCell id="tdwPlaa_u7U4kU1DZMBL-24" value="" style="endArrow=none;html=1;entryX=1;entryY=0.089;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.011;exitY=0.089;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tdwPlaa_u7U4kU1DZMBL-23" target="tdwPlaa_u7U4kU1DZMBL-23" edge="1">
@@ -357,7 +357,7 @@
         <mxCell id="tdwPlaa_u7U4kU1DZMBL-38" value="&lt;span style=&quot;font-size: 20px&quot;&gt;64KB的连续内存&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="683.9999999999999" y="1048" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tdwPlaa_u7U4kU1DZMBL-68" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
+        <mxCell id="tdwPlaa_u7U4kU1DZMBL-68" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="369" y="1339" width="142" height="239" as="geometry" />
         </mxCell>
         <mxCell id="tdwPlaa_u7U4kU1DZMBL-81" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="tdwPlaa_u7U4kU1DZMBL-68" vertex="1">
@@ -462,7 +462,7 @@
             <mxPoint x="677" y="1532" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACoiKRnYB48DLz54mros-3" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+        <mxCell id="ACoiKRnYB48DLz54mros-3" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="928" y="1339" width="142" height="239" as="geometry" />
         </mxCell>
         <mxCell id="ACoiKRnYB48DLz54mros-4" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ACoiKRnYB48DLz54mros-3">
@@ -515,6 +515,9 @@
         </mxCell>
         <mxCell id="ACoiKRnYB48DLz54mros-20" value="&lt;font style=&quot;font-size: 20px&quot;&gt;TLB&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="964" y="1597" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ACoiKRnYB48DLz54mros-22" value="&lt;font style=&quot;font-size: 18px&quot;&gt;描述64KB的物理地址空间使用&lt;b&gt;普通的PTE需要16个&lt;/b&gt;，而使用&lt;b&gt;napot扩展的PTE只需要一个&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="141" y="1348" width="151" height="202" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
